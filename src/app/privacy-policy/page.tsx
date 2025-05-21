@@ -1,11 +1,10 @@
-'use client'
 export default function PrivacyPolicyPage() {
   return (
     <div className="container mx-auto py-12 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold text-purple-800 dark:text-purple-400 mb-8">Privacy Policy</h1>
+        <h1 className="text-3xl font-bold text-black dark:text-white mb-8">Privacy Policy</h1>
 
-        <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
+        <div className="bg-white dark:bg-gray-900 rounded-xl shadow-lg p-6 mb-8 border border-gray-200 dark:border-gray-800">
           <div className="prose dark:prose-invert max-w-none">
             <h2>Introduction</h2>
             <p>
@@ -48,7 +47,7 @@ export default function PrivacyPolicyPage() {
               lost, used, or accessed in an unauthorized way. Since most data is stored locally on your device, the
               security of your data also depends on your device's security.
             </p>
-
+            
             <h2>Changes to This Privacy Policy</h2>
             <p>
               We may update our privacy policy from time to time. We will notify you of any changes by posting the new

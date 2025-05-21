@@ -44,7 +44,7 @@ export default function ContactPage() {
                 </a>
 
                 <a
-                  href="https://github.com/ABhavikj123/"
+                  href="https://github.com/ABhavikj123/mathmind"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center p-3 bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg transition-colors"

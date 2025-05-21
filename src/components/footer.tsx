@@ -82,7 +82,7 @@ export default function Footer() {
                 <span className="sr-only">Twitter</span>
               </a>
               <a
-                href="https://github.com/mathmind"
+                href="https://github.com/ABhavikj123/mathmind"
                 className="text-black dark:text-white hover:text-blue-600 dark:hover:text-blue-400"
                 target="_blank"
                 rel="noopener noreferrer"

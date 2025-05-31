@@ -1,6 +1,6 @@
 "use client"
 
-import { AtSign, Coffee, Github, Linkedin, Twitter } from "lucide-react"
+import { AtSign, Github, Linkedin, Twitter,Book } from "lucide-react"
 
 export default function ContactPage() {
   return (
@@ -84,10 +84,10 @@ export default function ContactPage() {
                 className="flex items-center p-4 bg-yellow-50 dark:bg-yellow-900/30 hover:bg-yellow-100 dark:hover:bg-yellow-900/50 rounded-lg transition-colors"
               >
                 <div className="bg-yellow-100 dark:bg-yellow-800 p-2 rounded-full mr-3">
-                  <Coffee className="text-yellow-700 dark:text-yellow-300" size={24} />
+                  <Book className="text-yellow-700 dark:text-yellow-300" size={24} />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-800 dark:text-gray-200">Buy Me a Coffee</p>
+                  <p className="font-medium text-gray-800 dark:text-gray-200">Buy Me a Book</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Support the development of MathMind</p>
                 </div>
               </a>
